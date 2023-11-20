@@ -1,0 +1,35 @@
+plugins {
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.1.0'
+}
+
+group 'com.mechanitis'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+javafx {
+    version = "16"
+    modules = ['javafx.controls', 'javafx.graphics']
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+application {
+    mainModule.set('com.javaGame')
+    mainClass.set('com.javaGame.Main')
+}
+
+java {
+    modularity.inferModulePath.set(true)
+}
+

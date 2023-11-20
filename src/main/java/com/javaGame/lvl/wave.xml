@@ -1,0 +1,72 @@
+<Levels>
+    <Level id="1">
+        <Wave number="1">
+            <Enemy type="Mob" name="FastGoblin" count="2"/>
+            <Enemy type="Mob" name="Goblin" count="10"/>
+            <Enemy type="Mob" name="FastGoblin" count="2"/>
+        </Wave>
+        <Wave number="2">
+            <Enemy type="Mob" name="FastGoblin" count="5"/>
+            <Enemy type="Mob" name="Goblin" count="5"/>
+            <Enemy type="Mob" name="FastGoblin" count="5"/>
+            <Enemy type="Mob" name="Goblin" count="5"/>
+            <Enemy type="Mob" name="HobGoblin" count="2"/>
+            <Enemy type="Mob" name="Goblin" count="5"/>
+            <Enemy type="Mob" name="GoblinChampion" count="1"/>
+        </Wave>
+        <Wave number="3">
+            <Enemy type="Mob" name="FastGoblin" count="5"/>
+            <Enemy type="Mob" name="Goblin" count="5"/>
+            <Enemy type="Mob" name="FastGoblin" count="5"/>
+            <Enemy type="Mob" name="Goblin" count="5"/>
+            <Enemy type="Mob" name="FastGoblin" count="5"/>
+            <Enemy type="Mob" name="HobGoblin" count="2"/>
+            <Enemy type="Mob" name="FastGoblin" count="5"/>
+            <Enemy type="Mob" name="GoblinChampion" count="2"/>
+            <Enemy type="Boss" name="Maxwell" count="1"/>
+        </Wave>
+    </Level>
+    <Level id="2">
+        <Wave number="1">
+            <Enemy type="Mob" name="FastGoblin" count="2"/>
+            <Enemy type="Mob" name="Goblin" count="5"/>
+            <Enemy type="Mob" name="FastGoblin" count="2"/>
+            <Enemy type="Mob" name="Goblin" count="5"/>
+            <Enemy type="Mob" name="FastGoblin" count="2"/>
+            <Enemy type="Mob" name="Goblin" count="5"/>
+        </Wave>
+        <Wave number="2">
+            <Enemy type="Mob" name="Goblin" count="15"/>
+            <Enemy type="Mob" name="FastGoblin" count="5"/>
+            <Enemy type="Mob" name="HobGoblin" count="3"/>
+            <Enemy type="Mob" name="GoblinChampion" count="1"/>
+        </Wave>
+        <Wave number="3">
+            <Enemy type="Mob" name="Goblin" count="10"/>
+            <Enemy type="Mob" name="FastGoblin" count="5"/>
+            <Enemy type="Mob" name="HobGoblin" count="8"/>
+            <Enemy type="Mob" name="GoblinChampion" count="5"/>
+            <Enemy type="Boss" name="Maxwell" count="2"/>
+        </Wave>
+    </Level>
+    <Level id="3">
+        <Wave number="1">
+            <Enemy type="Mob" name="Goblin" count="25"/>
+            <Enemy type="Mob" name="FastGoblin" count="5"/>
+            <Enemy type="Mob" name="HobGoblin" count="8"/>
+        </Wave>
+        <Wave number="2">
+            <Enemy type="Mob" name="Goblin" count="15"/>
+            <Enemy type="Mob" name="FastGoblin" count="5"/>
+            <Enemy type="Mob" name="HobGoblin" count="8"/>
+            <Enemy type="Mob" name="GoblinChampion" count="5"/>
+        </Wave>
+        <Wave number="3">
+            <Enemy type="Mob" name="Goblin" count="20"/>
+            <Enemy type="Mob" name="FastGoblin" count="15"/>
+            <Enemy type="Mob" name="HobGoblin" count="10"/>
+            <Enemy type="Mob" name="GoblinChampion" count="10"/>
+            <Enemy type="Boss" name="Maxwell" count="3"/>
+        </Wave>
+    </Level>
+</Levels>
